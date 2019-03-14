@@ -1,0 +1,150 @@
+/*
+ Theme Name:   Endurance Child
+ Theme URI:    http://www.patriciaroemer.dk
+ Description:  Endurance Child Theme
+ Author:       Patricia S. T. Rømer
+ Author URI:   http://www.patriciaroemer.dk
+ Template:     endurance
+ Version:      1.0.0
+*/
+
+
+h1 a:hover, h1 a:focus,
+h2 a:hover, h2 a:focus,
+h3 a:hover, h3 a:focus,
+h4 a:hover, h4 a:focus,
+h5 a:hover, h5 a:focus,
+h6 a:hover, h6 a:focus 
+a:hover, a:focus{
+  color: #670616; 
+}
+
+a {
+ color: #272727;
+}
+
+a:hover {
+ color: #670616;
+}
+
+/* "Theme by ILoveWP.com" er nu fjernet i footeren */
+span.theme-credit{
+	display: none;
+}
+
+.site-column-content{
+	width: 100%;
+}
+
+/* Ændring af knappernes farve */
+.wp-block-file .wp-block-file__button {
+	background: #670616;
+}
+
+/* Luft over overskriften "spørgeskema" */
+.entry-content h3{
+	padding-top: 40px;
+}
+
+.page-title {
+    color: #670616;
+}
+
+.large-nav a:hover, .large-nav a:focus, .large-nav .current-menu-item > a, .large-nav .current_page_item > a, .large-nav .current-menu-parent > a {
+    color: #670616;
+}
+
+/* FOOTER */
+
+#site-footer-credit {
+    background-color: #EDE3D5;
+    color: 272727;
+	padding: 20px 0;
+}
+
+#site-footer {
+    background-color: #EDE3D5;
+    border-top: solid 10px #670616;
+    color: black;
+}
+
+#site-footer .site-section-wrapper {
+    background-color: #EDE3D5;
+	padding: 40px 40px 20px;
+}
+
+#site-footer .widget-title {
+    color: #272727;
+}
+
+/* kontakt og sociale medier kolloner  */
+
+#site-footer .site-columns-4 .site-column {
+    margin-right: 3%;
+    width: 30%;
+}
+
+#site-footer a {
+    color: #272727;
+}
+
+button, input[type="button"], input[type="submit"] {
+    background-color: #670616;
+	margin-top: 5px;
+	margin: 5px 0;
+	border-radius: 30px;
+}
+
+.wp-block-file a.wp-block-file__button:hover {
+  color: #272727;
+}
+
+#site-footer a:hover,
+#site-footer a:focus {
+  color: #670616;
+  text-decoration: underline; 
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  background: #272727; 
+}
+
+#site-footer .widget-title {
+  margin-bottom: 1em;
+}
+
+.widget-title {
+  margin-bottom: 1em;
+  font-size: 0.9rem;
+}
+
+.entry-content p, .textwidget p {
+    margin-bottom: 0.5rem;
+}
+
+#site-footer .textwidget p + p {
+    margin-top: 0.5em;
+}
+
+/* Burger menu gøres bordeaux farvet ved iPad og Mobile version */
+.slicknav_btn {
+    background-color: #670616;
+}
+
+/* Alt indhold på footeren ligger under hinanden i iPad og mobil version */
+@media screen and (max-width: 768px){
+   #site-footer .site-columns-4 .site-column {
+   margin-right: 3%;
+   width: 100%;
+   }
+
+	/* Gjort logo større, og midterstillet */
+	#site-logo{
+	width: 60%;
+	margin-left: 25%;
+	margin-right: auto;
+	}
+	
+}
+
